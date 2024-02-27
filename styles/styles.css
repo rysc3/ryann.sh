@@ -38,6 +38,7 @@ html,
 body {
   background-color: var(--background);
   color: var(--base01);
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 .top-bar {
