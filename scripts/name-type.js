@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var terminalText = document.querySelector(".terminal-text");
   var typoName = "Ryan Shcerba";
   var correctedName = "Ryan Scherbarth";
-  var initialDelay = 3000; // 3 seconds delay before animation
+  var initialDelay = 1000; // 3 seconds delay before animation
   var charDelay = 50; // Delay between typing characters
   var backspaceDelay = charDelay * 2; // Backspace twice as fast as typing
   var backspaceDone = false; // Flag to track if backspacing has been done

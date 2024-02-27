@@ -1,0 +1,86 @@
+:root {
+  --background: #fbf7f5;
+}
+
+/* Define font-face for FiraCode */
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/styles/fonts/FiraCode-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/styles/fonts/FiraCode-Light.ttf') format('truetype');
+  font-weight: lighter;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/styles/fonts/FiraCode-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/styles/fonts/FiraCode-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/styles/fonts/FiraCode-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+/* Apply FiraCode font to all elements */
+* {
+  font-family: 'FiraCode', monospace;
+}
+
+html,
+body {
+  background-color: var(--background);
+  color: var(--base01);
+  font-size: 120%;
+}
+
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 0;
+  padding-left: 12px;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.terminal-container {
+  text-align: center;
+  padding-right: 24px;
+}
+
+.terminal {
+  display: inline-block;
+}
+
+.linkedin {
+  margin-left: auto;
+  margin-right: 18px;
+}
+
+.fa-white {
+  color: #fff !important;
+}
+
+/* New CSS for midFull box */
+.midFull {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 0; /* Same as top bar's bottom border radius */
+  border-bottom-right-radius: 0; /* Same as top bar's bottom border radius */
+}

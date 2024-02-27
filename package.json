@@ -1,0 +1,18 @@
+{
+    "name": "I-Copied-This-From-Chat-GPT",
+    "version": "1.0.0",
+    "description": "This is just used for running an npm server for local development",
+    "scripts": {
+      "start": "php -S localhost:8000 -t .",
+      "build": "gulp build",
+      "lint": "eslint ."
+    },
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "gulp-sass": "^5.0.0",
+      "gulp-autoprefixer": "^7.0.1",
+      "eslint": "^8.7.0",
+      "eslint-config-airbnb-base": "^15.0.0"
+    }
+  }
+  
