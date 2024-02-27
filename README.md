@@ -1,2 +1,1 @@
-# ryann.sh
-Simple Haskell website with Hakyll
+# fricke.uk
