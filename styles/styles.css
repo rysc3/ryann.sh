@@ -38,10 +38,11 @@ html,
 body {
   background-color: var(--background);
   color: var(--base01);
-  font-size: 120%;
 }
 
 .top-bar {
+  font-size: 120%;
+  font: bold;
   background-color: #333;
   color: #fff;
   padding: 12px 0;
@@ -72,15 +73,68 @@ body {
   color: #fff !important;
 }
 
-/* New CSS for midFull box */
 .midFull {
   background-color: #333;
   color: #fff;
   padding: 12px 0;
   display: flex;
+  /* justify-content: center; */
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 5px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.bottom-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 0;
+  display: flex;
   justify-content: center;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 0; /* Same as top bar's bottom border radius */
-  border-bottom-right-radius: 0; /* Same as top bar's bottom border radius */
+  padding-left: 12px;
+  margin-top: 5px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+/* Meeting container */
+.meeting-container {
+  width: 100%; /* Adjust width as needed */
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Meeting title */
+.meeting-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Meeting content */
+.meeting-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Google Calendar iframe */
+.google-calendar {
+  width: 70%; /* 65% width for Google Calendar */
+  border-top-left-radius: 12px; /* Match top left corner radius */
+  border-bottom-left-radius: 12px; /* Match bottom left corner radius */
+}
+
+/* Koalendar iframe */
+.koalendar {
+  width: 30%; /* 35% width for Koalendar */
+  border-top-right-radius: 12px; /* Match top right corner radius */
+  border-bottom-right-radius: 12px; /* Match bottom right corner radius */
 }
